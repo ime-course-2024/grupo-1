@@ -23,4 +23,7 @@ Cada demanda identificada pelos membros do grupos para a solução do problema d
 
 ## Desenvolvimento da Atividade 
 
--- INSIRA AQUI A DESCRIÇÃO DO PROBLEMA ABORDADO PELO GRUPO --
+-- INSIRA AQUI A  --
+
+Sistema de Produção e Descomissionamento
+
