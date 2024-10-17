@@ -1,4 +1,4 @@
-# Grupo 1
+gi# Grupo 1
 
 Este repositório contém as atividades desenvolvidas pelo Grupo 1 do curso Engenharia de Soluções Baseadas em Ontologias ministrado no Instituto Militar de Engenharia em outubro de 2024.
 
@@ -23,7 +23,11 @@ Cada demanda identificada pelos membros do grupos para a solução do problema d
 
 ## Desenvolvimento da Atividade 
 
--- INSIRA AQUI A  --
+-- INSIRA AQUI A DESCRIÇÃO DO PROBLEMA ABORDADO PELO GRUPO --
 
 Sistema de Produção e Descomissionamento
+
+O QUE É DESCOMISSIONAMENTO Conjunto de atividades associadas à interrupção definitiva da operação das instalações, ao abandono permanente e arrasamento de poços, à remoção de instalações, à destinação adequada de materiais, resíduos e rejeitos e à recuperação ambiental da área.” 
+
+
 
