@@ -1,0 +1,165 @@
+@prefix : <http://example.com#>.
+@prefix gufo: <http://purl.org/nemo/gufo#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<http://example.com> rdf:type owl:Ontology;
+    owl:imports gufo:.
+:UnidadeFlutuante rdf:type owl:Class, gufo:Category, owl:NamedIndividual;
+    rdfs:label "Unidade Flutuante"@en.
+:Bloco rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "Bloco"@en.
+:Campo rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "Campo"@en.
+:Poo rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:subClassOf gufo:FunctionalComplex;
+    rdfs:label "Po�o"@en.
+:EquipamentosDeInterligao rdf:type owl:Class, gufo:Category, owl:NamedIndividual;
+    rdfs:label "Equipamentos de Interliga��o"@en.
+:UnidadeDaFederao rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "Unidade da Federa��o"@en.
+:Bacia rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "Bacia"@en.
+:Duto rdf:type owl:Class, gufo:Category, owl:NamedIndividual;
+    rdfs:subClassOf gufo:FunctionalComplex;
+    rdfs:label "Duto"@en.
+:PooInjetor rdf:type owl:Class, gufo:Role, owl:NamedIndividual;
+    rdfs:label "Po�o Injetor"@en.
+:PooProdutor rdf:type owl:Class, gufo:Role, owl:NamedIndividual;
+    rdfs:label "Po�o Produtor"@en.
+:Localizo rdf:type owl:Class, gufo:Category, owl:NamedIndividual;
+    rdfs:subClassOf gufo:FunctionalComplex;
+    rdfs:label "Localiz�o"@en.
+:Linhas rdf:type owl:Class, gufo:Category, owl:NamedIndividual;
+    rdfs:label "Linhas"@en.
+:JackUp rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Jack up"@en.
+:PlataformaRgida rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Plataforma R�gida"@en.
+:PlataformaFlexvel rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Plataforma Flex�vel"@en.
+:Semissubmersvel rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Semissubmers�vel"@en.
+:FPSO rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "FPSO"@en.
+:DrillingShip rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Drilling Ship"@en.
+:Sonda rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "Sonda"@en.
+:Mvel rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "M�vel"@en.
+:Plataforma rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "Plataforma"@en.
+:Fixa rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Fixa"@en.
+:SteelJacket rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Steel Jacket"@en.
+:ConcreteGravity rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Concrete Gravity"@en.
+:TLP rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "TLP"@en.
+:CompliantTower rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Compliant Tower"@en.
+:Spar rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Spar"@en.
+:SteelGravity rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Steel Gravity"@en.
+:SeaStar rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Sea Star"@en.
+:dutosDeTransferncia rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "dutos de transfer�ncia"@en.
+:LinhaDeServio rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "Linha de servi�o"@en.
+:EquipamentosSubmarinos rdf:type owl:Class, gufo:Category, owl:NamedIndividual;
+    rdfs:label "Equipamentos Submarinos"@en.
+:ObjetosFsicos rdf:type owl:Class, gufo:Category, owl:NamedIndividual;
+    rdfs:subClassOf gufo:FunctionalComplex;
+    rdfs:label "Objetos F�sicos"@en.
+:Umbilical rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Umbilical"@en.
+:Plem rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "Plem"@en.
+:Manifold rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "Manifold"@en.
+:rvoreDeNatal rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "�rvore de Natal"@en.
+:Plet rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "Plet"@en.
+:CabeaDePoo rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "Cabe�a dePo�o"@en.
+:Riserr rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:subClassOf gufo:FunctionalComplex;
+    rdfs:label "Riserr"@en.
+:Gasoduto rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Gasoduto"@en.
+:Flowline rdf:type owl:Class, gufo:SubKind, owl:NamedIndividual;
+    rdfs:label "Flowline"@en.
+:LinhaDeInjeo rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "Linha de Inje��o"@en.
+:LinhaDeProduo rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "Linha de Produ��o"@en.
+:DutoDeEscoamentos rdf:type owl:Class, gufo:Kind, owl:NamedIndividual;
+    rdfs:label "Duto de escoamentos"@en.
+:Plataforma rdfs:subClassOf :UnidadeFlutuante.
+:Sonda rdfs:subClassOf :UnidadeFlutuante.
+:Mvel rdfs:subClassOf :Plataforma.
+:UnidadeFlutuante rdfs:subClassOf :ObjetosFsicos.
+:Fixa rdfs:subClassOf :Plataforma.
+:FPSO rdfs:subClassOf :Mvel.
+:Semissubmersvel rdfs:subClassOf :Mvel.
+:JackUp rdfs:subClassOf :Mvel.
+:PlataformaRgida rdfs:subClassOf :Fixa.
+:PlataformaFlexvel rdfs:subClassOf :Fixa.
+:SteelJacket rdfs:subClassOf :PlataformaRgida.
+:SteelGravity rdfs:subClassOf :PlataformaRgida.
+:ConcreteGravity rdfs:subClassOf :PlataformaRgida.
+:TLP rdfs:subClassOf :PlataformaFlexvel.
+:SeaStar rdfs:subClassOf :PlataformaFlexvel.
+:Spar rdfs:subClassOf :PlataformaFlexvel.
+:CompliantTower rdfs:subClassOf :PlataformaFlexvel.
+:DrillingShip rdfs:subClassOf :Mvel.
+:Bacia rdfs:subClassOf :Localizo.
+:Bloco rdfs:subClassOf :Localizo.
+:Campo rdfs:subClassOf :Localizo.
+:UnidadeDaFederao rdfs:subClassOf :Localizo.
+:PooProdutor rdfs:subClassOf :Poo.
+:PooInjetor rdfs:subClassOf :Poo.
+:EquipamentosDeInterligao rdfs:subClassOf :EquipamentosSubmarinos.
+:Linhas rdfs:subClassOf :EquipamentosSubmarinos.
+:dutosDeTransferncia rdfs:subClassOf :Linhas.
+:LinhaDeServio rdfs:subClassOf :Linhas.
+:EquipamentosSubmarinos rdfs:subClassOf :ObjetosFsicos.
+:Umbilical rdfs:subClassOf :LinhaDeServio.
+:Plem rdfs:subClassOf :EquipamentosDeInterligao.
+:Plet rdfs:subClassOf :EquipamentosDeInterligao.
+:Manifold rdfs:subClassOf :EquipamentosDeInterligao.
+:rvoreDeNatal rdfs:subClassOf :EquipamentosSubmarinos.
+:CabeaDePoo rdfs:subClassOf :EquipamentosSubmarinos.
+:Flowline rdfs:subClassOf :dutosDeTransferncia.
+:DutoDeEscoamentos rdfs:subClassOf :Linhas.
+:Gasoduto rdfs:subClassOf :DutoDeEscoamentos.
+:LinhaDeProduo rdfs:subClassOf :Linhas.
+:LinhaDeInjeo rdfs:subClassOf :Linhas.
+:localizoHasPoo rdf:type owl:ObjectProperty;
+    rdfs:domain :Localizo;
+    rdfs:range :Poo.
+:campoHasPoo rdf:type owl:ObjectProperty;
+    rdfs:domain :Campo;
+    rdfs:range :Poo.
+:linhasHasRiserr rdf:type owl:ObjectProperty;
+    rdfs:domain :Linhas;
+    rdfs:range :Riserr.
+:riserrHasPlataforma rdf:type owl:ObjectProperty;
+    rdfs:domain :Riserr;
+    rdfs:range :Plataforma.
+:riserrHasFlowline rdf:type owl:ObjectProperty;
+    rdfs:domain :Riserr;
+    rdfs:range :Flowline.
+:unidadeFlutuanteHasCampo rdf:type owl:ObjectProperty;
+    rdfs:domain :UnidadeFlutuante;
+    rdfs:range :Campo.
+:equipamentosSubmarinosHasCampo rdf:type owl:ObjectProperty;
+    rdfs:domain :EquipamentosSubmarinos;
+    rdfs:range :Campo.
